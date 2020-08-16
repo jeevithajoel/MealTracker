@@ -1,0 +1,94 @@
+
+<div ng-controller="MealController" ng-init="initList()">
+
+  <div class="page-header">
+    <img alt="MT" src="img/logo1.png">
+     <label style="float:right;">{{ totalCalories }}kcal of {{ cal_intake }}kcal</label>
+  </div>
+  
+  
+  <div>
+       <div style="width:20%;float: left; font-size:10px;"><span>Carbs</span></div>
+       <div style="width:15%;float: left; font-size:10px;"><span>{{ carb_percentage }}%</span></div>
+       <div class="progress progress-line-primary" style="float: centre;">
+          <div class="progress-bar" role="progressbar" aria-valuenow="{{ carb_percentage }}" aria-valuemin="0" aria-valuemax="100" style="background-color: green; width:{{carb_percentage }}%">
+          </div>
+      </div>
+  </div>
+  
+  <div>
+      <div style="width:20%;float: left; font-size:10px;"><span>Protein</span></div>
+      <div style="width:15%;float: left; font-size:10px;"><span>{{ prot_percentage }}%</span></div>
+      <div class="progress sell_progress_bar">
+         <div class="progress-bar" role="progressbar" aria-valuenow="{{ prot_percentage }}" aria-valuemin="0" aria-valuemax="100" style="background-color: blue; width:{{ prot_percentage }}%">
+         </div>
+      </div>
+  </div>
+  
+  <div>
+      <div style="width:20%;float: left; font-size:10px;"><span>Fat</span></div>
+      <div style="width:15%;float: left; font-size:10px;"><span>{{ fat_percentage }}%</span></div>
+      <div class="progress sell_progress_bar">
+       <div class="progress-bar" role="progressbar" aria-valuenow="{{ fat_percentage }}" aria-valuemin="0" aria-valuemax="100" style="background-color: orange; width:{{ fat_percentage }}%">
+       </div>
+      </div>
+  </div>
+  
+  <div>
+      <div style="width:20%;float: left; font-size:10px;"><span>Fibre</span></div>
+      <div style="width:15%;float: left; font-size:10px;"><span>{{ fibre_percentage }}%</span></div>
+      <div class="progress sell_progress_bar">
+       <div class="progress-bar" role="progressbar" aria-valuenow="{{ fibre_percentage }}" aria-valuemin="0" aria-valuemax="100" style="background-color: red; width:{{ fibre_percentage }}%">
+       </div>
+      </div>
+  </div>
+  
+  
+  <div style="font-size:13px;">
+     <label style="width:230px;">Breakfast</label>
+     <label>{{breakfastCalories}}kcal</label>
+     <button type="button" style="font-size: 13px; float: right;" ng-click="searchAndAdd('breakfast')">+</button>
+     
+     <ul class="list-group">
+         <li ng-repeat="item in arrBreakfast" class="list-group-item list-group-item-success" on-long-press="removeFoodItem($index, 'breakfast')">
+          <label style="width:150px;">{{item.name}}  </label>
+          <label>{{item.quantity}}  </label>
+          <label style="float: right;">{{item.calories}}</label>
+         </li>
+     </ul>
+  </div>
+  
+  <div style="font-size:13px;">
+     <label style="width:230px;">Lunch</label>
+     <label>{{lunchCalories}}kcal</label>
+     <button type="button" style="font-size: 13px;float: right;" ng-click="searchAndAdd('lunch')">+</button>
+    
+     <ul class="list-group">
+         <li ng-repeat="item in arrLunch" class="list-group-item list-group-item-success" on-long-press="removeFoodItem($index, 'lunch')">
+          <label style="width:150px;">{{item.name}}  </label>
+          <label>{{item.quantity}}  </label>
+          <label style="float: right;">{{item.calories}}</label>
+         </li>
+     </ul>
+  </div>
+  
+  <div style="font-size:13px;">
+     <label style="width:230px;">Dinner</label>
+     <label>{{dinnerCalories}}kcal</label>
+     <button type="button" style="font-size: 13px;float: right;" ng-click="searchAndAdd('dinner')">+</button>
+    
+     <ul class="list-group">
+       <li ng-repeat="item in arrDinner" class="list-group-item list-group-item-success" on-long-press="removeFoodItem($index, 'dinner')">
+        <label style="width:150px;">{{item.name}}  </label>
+        <label>{{item.quantity}}  </label>
+        <label style="float: right;">{{item.calories}}</label>
+       </li>
+     </ul>
+  </div>
+ 
+  <div class="footer navbar-fixed-bottom">
+    <button type="button" class="btn btn-default" ng-click="setView('home')">Back</button>
+ </div>
+  
+  
+</div>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-airwatch" version="2.0.0">
+    <name>Cordova Airwatch</name>
+    <description>Integrates with the basic Airwatch native configuration</description>
+    <license>UNLICENCESED</license>
+    <keywords>cordova,airwatch</keywords>
+    <js-module src="www/airwatch.js" name="airwatch">
+        <clobbers target="cordova.airwatch" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Airwatch">
+                <param name="ios-package" value="Airwatch"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/Airwatch.h" />
+        <source-file src="src/ios/Airwatch.m" />
+    </platform>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Airwatch">
+                <param name="android-package" value="com.stwater.CordovaAirwatch"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/com/stwater/CordovaAirwatch.java"
+                     target-dir="src/com/stwater/CordovaAirwatch"/>
+    </platform>
+</plugin>

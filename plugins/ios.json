@@ -1,0 +1,45 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-airwatch": {
+      "PACKAGE_NAME": "com.io.tracker"
+    },
+    "cordova-plugin-background-fetch": {
+      "PACKAGE_NAME": "com.io.tracker"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.io.tracker"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.io.tracker"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.io.tracker"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.io.tracker"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.io.tracker"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.io.tracker"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.io.tracker"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "com.io.tracker"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "PACKAGE_NAME": "com.io.tracker"
+    }
+  },
+  "dependent_plugins": {}
+}

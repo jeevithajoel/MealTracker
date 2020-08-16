@@ -1,0 +1,333 @@
+{
+    "items" : [
+        {
+            "code" : "TC",
+            "icon" : "TC",
+            "type" : "Clear Pot for transporting crypto filters",
+            "dimensions" : "",
+            "technique" : "Place crypto filter sample in pot with < 50ml matrix.  Store empty pot at room temperature.  Transport sample at 5±3°C"
+        },
+        {
+            "code" : "N1",
+            "icon" : "N1",
+            "type" : "Tap/hydrant Net",
+            "dimensions" : "",
+            "technique" : "Store at room temperature.  Transport sample at 5±3°C"
+        },
+        {
+            "code" : "C6",
+            "icon" : "C6",
+            "type" : "500ml Clear PET",
+            "dimensions" : "65mm x 170mm",
+            "technique" : "Rinse with sample then fill completely.  Refrigerate Sample. Label vertically and ensure barcode and number are legible."
+        },
+        {
+            "code" : "G1",
+            "icon" : "G1",
+            "type" : "1000ml PET Round",
+            "dimensions" : "81mm x 272mm",
+            "technique" : "Fill to lid.  Label vertically and ensure barcode and number are legible.  Refrigerate Sample."
+        },
+        {
+            "code" : "A1",
+            "icon" : "A1",
+            "type" : "1L Green PET, Round Blue Top",
+            "dimensions" : "81mm x 272mm",
+            "technique" : "Fill to lid. Refrigerate Sample. Label vertically and ensure barcode and number legible."
+        },
+        {
+            "code" : "B1",
+            "icon" : "B1",
+            "type" : "500ml, Clear plastic bottle, Sterile unless paper bond is broken",
+            "dimensions" : "",
+            "technique" : "Fill to the shoulder of the bottle ensuring there is a small air space, invert bottle to mix sample with Sodium thiosulphate. Seal regulatory samples in bag at tap. Store/transport at 5±3°C"
+        },
+        {
+            "code" : "B2",
+            "icon" : "B2",
+            "type" : "1L Clear PET, Round, Sterile unless paper bond is broken",
+            "dimensions" : "",
+            "technique" : "Fill to the shoulder of the bottle ensuring there is a small air space, invert bottle to mix sample with Sodium thiosulphate.  Seal regulatory samples in bag at tap.  Store/transport at 5±3°C"
+        },
+        {
+            "code" : "B6",
+            "icon" : "B6",
+            "type" : " 10L carboy White Plastic",
+            "dimensions" : "",
+            "technique" : "Rinse out with sample water before use.  For non-regulatory Cryptosporidium testing.  Sample may be transported at room temp, upon receipt to laboratory should be stored at 5±3°C"
+        },
+        {
+            "code" : "B7",
+            "icon" : "B7",
+            "type" : "Crypto Filter",
+            "dimensions" : "",
+            "technique" : "Crypto filter with red top (usually used for treated water or 'clean' raws).  Crypto filter with black top (usually used for raw water and can be used for treated water).  Filter >10L and record the actual volume.  Store filters at room temperature.  Transport sample at 5±3°C C.  Place filter in a plastic pot containing sufficient water to prevent drying out."
+        },
+        {
+            "code" : "C1",
+            "icon" : "C1",
+            "type" : "500ml, Clear PET, Square",
+            "dimensions" : "65mm x 170mm",
+            "technique" : "This chemical sample should be taken first unless an RDT metals bottle is required.  (*Bacti bottles should be taken before this).  Rinse with sample then fill completely.  Refrigerate Sample Label vertically and ensure barcode and number are legible."
+        },
+        {
+            "code" : "C2",
+            "icon" : "C2",
+            "type" : "60ml, Amber Plastic, Round",
+            "dimensions" : "",
+            "technique" : "Fill to lid.  Do not rinse, do not allow to overflow.  The bottles are date stamped and must be used by the expiry date shown. Label horizontally and ensure barcode and number are legible.  Refrigerate sample. Where possible - ensure expiry date remains visible "
+        },
+        {
+            "code" : "C3",
+            "icon" : "C3",
+            "type" : "1 Litre Glass, Round",
+            "dimensions" : "80mm x 210mm",
+            "technique" : "Rinse with sample then fill bottle completely (leaving no air gap).  The bottles are date stamped and must be used by the expiry date shown.  Store in a sealable plastic bag for transportation.  Refrigerate sample. Label vertically and ensure barcode and number are legible Where possible - ensure expiry date remains visible "
+        },
+        {
+            "code" : "C7",
+            "icon" : "C7",
+            "type" : "250ml, Amber Glass, Round",
+            "dimensions" : "62mm x 146mm",
+            "technique" : "Fill to shoulder level.  Refrigerate sample. Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "E1",
+            "icon" : "E1",
+            "type" : "500ml, Square PET",
+            "dimensions" : "55mm x 185mm",
+            "technique" : "Rinse with sample then fill completely.  Refrigerate sample. Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "L4",
+            "icon" : "L4",
+            "type" : "250ml, Clear Glass, Round",
+            "dimensions" : "62mm x 146mm",
+            "technique" : "Fill to shoulder level.  Do not rinse. Label vertically and ensure barcode and number are legible.  Refrigerate sample.  Fill completely for metaldehyde analysis."
+        },
+        {
+            "code" : "M1",
+            "icon" : "M1",
+            "type" : "125ml, Azlon",
+            "dimensions" : "50mm x 103mm",
+            "technique" : "Rinse with sample then fill to shoulder. Label vertically and ensure barcode and number are legible.  Ambient storage."
+        },
+        {
+            "code" : "M2",
+            "icon" : "M2",
+            "type" : "125ml, Azlon",
+            "dimensions" : "50mm x 103mm",
+            "technique" : "Rinse with sample then fill to shoulder. Label vertically and ensure barcode and number are legible.   Ambient storage."
+        },
+        {
+            "code" : "M3",
+            "icon" : "M3",
+            "type" : "1000ml, White PE-HD",
+            "dimensions" : "240mm x 80mm",
+            "technique" : "This sample must be taken first without prior flushing using local procedures.  Fill to shoulder level.  N.B. Should sample require both RDT Metals (M3) and Filtered RDT Metals (M7) the first flush of sample must be shared between bottles i.e. 0.5l in each."
+        },
+        {
+            "code" : "M6",
+            "icon" : "M6",
+            "type" : "100ml, Clear Glass, Round",
+            "dimensions" : "46mm x 107mm",
+            "technique" : "Fill bottle completely.  Do not rinse.  Do not allow to overflow whilst filling.  The bottles are date stamped and must be used by the expiry date shown.  Refrigerate sample. Label horizontally and ensure barcode and number are legible. Where possible - ensure expiry date remains visible."
+        },
+        {
+            "code" : "M7",
+            "icon" : "M7",
+            "type" : "1000ml, White PE-HD",
+            "dimensions" : "240mm x 80mm",
+            "technique" : "This sample must be taken first without prior flushing using local procedures.  Fill to shoulder level.  N.B. Should sample require both RDT Metals (M3) and Filtered RDT Metals (M7) the first flush of sample must be shared between bottles i.e. 0.5l in each.  Ambient storage. Label vertically and ensure barcode and number are legible."
+        },
+        {
+            "code" : "MP",
+            "icon" : "MP",
+            "type" : "125ml, Azlon",
+            "dimensions" : "50mm x 103mm",
+            "technique" : "Rinse with sample then fill to shoulder. Label vertically and ensure barcode and number are legible .  Ambient storage."
+        },
+        {
+            "code" : "OA",
+            "icon" : "OA",
+            "type" : "1000ml, Green PET, Round",
+            "dimensions" : "81mm x 272mm",
+            "technique" : "Fill to lid. Label vertically and ensure barcode and number are legible .   Refrigerate sample."
+        },
+        {
+            "code" : "OJ",
+            "icon" : "OJ",
+            "type" : "100ml, Amber Glass, Round",
+            "dimensions" : "42mm x 117mm",
+            "technique" : "Fill bottle completely.  Do not rinse.  Do not allow to overflow whilst filling.  The bottles are date stamped and must be used by the expiry date shown.  Refrigerate sample."
+        },
+        {
+            "code" : "OK",
+            "icon" : "OK",
+            "type" : "2x1000ml, Amber Glass, Round",
+            "dimensions" : "96mm x 244mm",
+            "technique" : "Fill to shoulder level.  Do not allow to overflow whilst filling. Refrigerate sample . Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "ON",
+            "icon" : "ON",
+            "type" : "1000ml, Green,  PET, Round",
+            "dimensions" : "81mm x 272mm",
+            "technique" : "Fill to list.  Label vertically and ensure barcode and number are legible  . Refrigerate sample."
+        },
+        {
+            "code" : "OP",
+            "icon" : "OP",
+            "type" : "1000ml, Amber Glass, Round",
+            "dimensions" : "96mm x 244mm",
+            "technique" : "Fill to shoulder, do not fill completely.  Do not rinse.  Do not allow to overflow whilst filling.  The bottles are date stamped and must be used by the expiry date shown.  Refrigerate sample. Label vertically and ensure barcode and number are legible. Where possible - ensure expiry date remains visible . "
+        },
+        {
+            "code" : "OR",
+            "icon" : "OR",
+            "type" : "Amber PET bottle dosed with 2ml of 4% ascorbic acid",
+            "dimensions" : "",
+            "technique" : "Fill bottle completely.  Do not allow to overflow whilst filling. Label vertically and ensure barcode and number are legible .  Refrigerate sample."
+        },
+        {
+            "code" : "OT",
+            "icon" : "OT",
+            "type" : "2x40ml, Amber Glass, Round vials, Sealed blue cap",
+            "dimensions" : "28mmx100mm",
+            "technique" : "Fill to top excluding all air.  Do not rinse.  Do not allow to overflow whilst filling.  Ensure that the seal is correctly in place inside the lid.  The PTFE coated side must be in contact with sample liquid.  Two identical sample vials should be taken at each sample point.  Bottles are date stamped and must be used by the expiry date shown. Label vertically and ensure barcode and number are legible - ensure expiry date remains visible .  Refrigerate sample."
+        },
+        {
+            "code" : "OD",
+            "icon" : "OD",
+            "type" : "2x40ml, Amber Glass, Round vials, Sealed blue cap ",
+            "dimensions" : "28mmx100mm",
+            "technique" : "Fill to top excluding all air.  Do not rinse.  Do not allow to overflow whilst filling.  Ensure that the seal is correctly in place inside the lid.  The PTFE coated side must be in contact with sample liquid.  Two identical sample vials should be taken at each sample point.  Bottles are date stamped and must be used by the expiry date shown. Label vertically and ensure barcode and number are legible - ensure expiry date remains visible . Refrigerate sample."
+        },
+        {
+            "code" : "P1",
+            "icon" : "P1",
+            "type" : "500ml, Clear PET, Square",
+            "dimensions" : "",
+            "technique" : "Fill bottle completely. Label vertically and ensure barcode and number are legible  . Refrigerate sample "
+        },
+        {
+            "code" : "P2",
+            "icon" : "P2",
+            "type" : "500ml, Amber Glass, Round",
+            "dimensions" : "80mm x 191mm",
+            "technique" : "Fill bottle completely.  Do not rinse.  Do not allow to overflow whilst filling.  The bottles are date stamped and must be used by the expiry date shown. Label vertically and ensure barcode and number are legible .  Refrigerate sample. Where possible - ensure expiry date remains visible"
+        },
+        {
+            "code" : "P3",
+            "icon" : "P3",
+            "type" : "500ml, Amber Glass, Round Vials, ",
+            "dimensions" : "80mm x 191mm",
+            "technique" : "Fill bottle completely.  Do not rinse.  Do not allow to overflow whilst filling.  The bottles are date stamped and must be used by the expiry date shown. Label vertically and ensure barcode and number are legible .  Refrigerate sample. Where possible - ensure expiry date remains visible"
+        },
+        {
+            "code" : "P4",
+            "icon" : "P4",
+            "type" : "500ml, Amber Glass, Round",
+            "dimensions" : "80mm x 191mm",
+            "technique" : "Fill bottle completely.  Do not rinse.  Do not allow to overflow whilst filling.  The bottles are date stamped and must be used by the expiry date shown. Label vertically and ensure barcode and number are legible .  Refrigerate sample. Where possible - ensure expiry date remains visible"
+        },
+        {
+            "code" : "P8",
+            "icon" : "P8",
+            "type" : "500ml, Glass Amber, Round",
+            "dimensions" : "80mm x 191mm",
+            "technique" : " Fill bottle completely.  Do not rinse.  Do not allow to overflow whilst filling.  The bottles are date stamped and must be used by the expiry date shown. Label vertically and ensure barcode and number are legible .  Refrigerate sample. Where possible - ensure expiry date remains visible."
+        },
+        {
+            "code" : "P9",
+            "icon" : "P9",
+            "type" : "250ml, Amber Glass, Round",
+            "dimensions" : "62mm x 146mm",
+            "technique" : "Fill to shoulder level.  Refrigerate sample. Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "PC",
+            "icon" : "PC",
+            "type" : "500ml, Clear PET",
+            "dimensions" : "",
+            "technique" : "Fill to top.  Ambient storage. Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "PF",
+            "icon" : "PF",
+            "type" : "125ml, Azlon",
+            "dimensions" : "50mm x 103mm",
+            "technique" : "Fill to shoulder level.  Refrigerate sample. Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "PG",
+            "icon" : "PG",
+            "type" : "500ml, Amber Glass, Round",
+            "dimensions" : "80mm x 191mm",
+            "technique" : "Fill bottle completely.  Do not rinse.  Do not allow to overflow whilst filling.  The bottles are date stamped and must be used by the expiry date shown.  Ambient storage. Label vertically and ensure barcode and number are legible. Where possible - ensure expiry date remains visible "
+        },
+        {
+            "code" : "PT",
+            "icon" : "PT",
+            "type" : "500ml, Amber Glass, Round",
+            "dimensions" : "80mm x 191mm",
+            "technique" : " Fill bottle completely.  Do not rinse.  Do not allow to overflow whilst filling.  The bottles are date stamped and must be used by the expiry date shown.  Ambient storage. Label vertically and ensure barcode and number are legible. Where possible - ensure expiry date remains visible."
+        },
+        {
+            "code" : "QA",
+            "icon" : "QA",
+            "type" : "500ml, Clear Glass, Round",
+            "dimensions" : "80mm x 191mm",
+            "technique" : "Fill to shoulder level.  Refrigerate sample. Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "R1",
+            "icon" : "R1",
+            "type" : "2 litre, HD-PE, Handle Style",
+            "dimensions" : "115mm x 280mm",
+            "technique" : "Rinse with sample then fill to shoulder.  Refrigerate sample. Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "R2",
+            "icon" : "R2",
+            "type" : "250ml, Amber Glass, Round",
+            "dimensions" : "62mm x 146mm",
+            "technique" : "Fill to shoulder level.  Refrigerate sample. Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "R3",
+            "icon" : "R3",
+            "type" : "1 litre metal container",
+            "dimensions" : "255mm x 90mm",
+            "technique" : "Rinse bottle with sample then fill bottle completely (leaving no air gap).  Do not let bottle overflow.  Insert polythene plug allowing a small amount of sample to overflow and ensuring no air gap.  Screw cap on tightly.  Refrigerate sample. Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "R4",
+            "icon" : "R4",
+            "type" : "2 litre, HD-PE, Handle Style",
+            "dimensions" : "115mm x 280mm",
+            "technique" : "Rinse with sample then fill to shoulder.  Refrigerate sample. Label vertically and ensure barcode and number are legible "
+        },
+        {
+            "code" : "SB",
+            "icon" : "SB",
+            "type" : "TSC swab with Transport media",
+            "dimensions" : "",
+            "technique" : "Moisten swab with transport media. Place back in tube, seal & label.  Store/transport at 5&plusmn;3&deg;C."
+        },
+        {
+            "code" : "BH",
+            "icon" : "BH",
+            "type" : "",
+            "dimensions" : "",
+            "technique" : "14cm petri dish containing MLGA for filters produced during water filtration using the High Volume Sampling Rig. Store/transport plates at 5&plusmn;3&deg;C."
+        },
+        {
+            "code" : "BA",
+            "icon" : "BA",
+            "type" : "",
+            "dimensions" : "",
+            "technique" : "90mm petri dish containing MLGA for the passing of 1000L of air using an  Oxoid air sampler. Store/transport plates at 5&plusmn;3&deg;C."
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.io.tracker" version="1.1.18" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Airwatch">
+        <param name="ios-package" value="Airwatch" />
+    </feature>
+    <feature name="BackgroundFetch">
+        <param name="ios-package" value="CDVBackgroundFetch" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+    <feature name="CDVOrientation">
+        <param name="ios-package" value="CDVOrientation" />
+    </feature>
+    <feature name="SQLitePlugin">
+        <param name="ios-package" value="SQLitePlugin" />
+    </feature>
+    <feature name="Diagnostic">
+        <param name="ios-package" value="Diagnostic" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Location">
+        <param name="ios-package" value="Diagnostic_Location" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Bluetooth">
+        <param name="ios-package" value="Diagnostic_Bluetooth" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Wifi">
+        <param name="ios-package" value="Diagnostic_Wifi" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Camera">
+        <param name="ios-package" value="Diagnostic_Camera" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Notifications">
+        <param name="ios-package" value="Diagnostic_Notifications" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Microphone">
+        <param name="ios-package" value="Diagnostic_Microphone" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Contacts">
+        <param name="ios-package" value="Diagnostic_Contacts" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Calendar">
+        <param name="ios-package" value="Diagnostic_Calendar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Reminders">
+        <param name="ios-package" value="Diagnostic_Reminders" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Motion">
+        <param name="ios-package" value="Diagnostic_Motion" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="BarcodeScanner">
+        <param name="ios-package" value="CDVBarcodeScanner" />
+    </feature>
+    <name>Meal tracker</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <splash height="1334" src="res/icon/ios/iphone8potrait.png" width="750" />
+    <splash height="1242" src="res/icon/ios/iphonepluslandscape.png" width="2208" />
+    <splash height="2208" src="res/icon/ios/iphonepluspotrait.png" width="1242" />
+    <splash height="1125" src="res/icon/ios/iphoneXLandscape.png" width="2436" />
+    <splash height="2436" src="res/icon/ios/iphoneXLandscape.png" width="1125" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <icon height="76" src="res/icon/ios/iconiPadApp_76pt.png" width="76" />
+    <icon height="152" src="res/icon/ios/iconiPadApp_76pt@2x.png" width="152" />
+    <icon height="20" src="res/icon/ios/iconiPadNotifications_20pt.png" width="20" />
+    <icon height="40" src="res/icon/ios/iconiPadNotifications_20pt@2x.png" width="40" />
+    <icon height="167" src="res/icon/ios/iconiPadProApp_83.5pt@2x.png" width="167" />
+    <icon height="29" src="res/icon/ios/iconiPadSpootlight5_29pt.png" width="29" />
+    <icon height="58" src="res/icon/ios/iconiPadSpootlight5_29pt@2x.png" width="58" />
+    <icon height="80" src="res/icon/ios/iconiPadSpootlight7_40pt@2x.png" width="80" />
+    <icon height="120" src="res/icon/ios/iconiPhoneApp_60pt@2x.png" width="120" />
+    <icon height="180" src="res/icon/ios/iconiPhoneApp_60pt@3x.png" width="180" />
+    <icon height="60" src="res/icon/ios/iconiPhoneNotification_20pt@3x.png" width="60" />
+    <icon height="87" src="res/icon/ios/iconiPhoneSpootlight5_29pt@3x.png" width="87" />
+    <icon height="1024" src="res/icon/ios/iconstore_1024pt.png" width="1024" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="CameraUsesGeolocation" value="false" />
+</widget>

@@ -1,0 +1,88 @@
+<!doctype html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+        <meta http-equiv="Content-Security-Policy" content="font-src 'self' data: *; img-src 'self' data: gap: http://* *; default-src gap://ready file://* *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <meta name = "format-detection" content = "telephone=no">
+
+    <!-- build:css styles/vendor.css -->
+        <!-- injector:bowercss -->
+        <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+        <!-- endinjector -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/custom.css -->
+        <!-- injector:css -->
+        <link rel="stylesheet" href="css/customcordova.css">
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- endinjector -->
+    <!-- endbuild -->
+
+    <script src="cordova.js"></script>
+  </head>
+
+  <body>
+        <div class="container" ng-controller="MainController">
+            <div ng-include src="getView()" />
+        </div>
+
+    <!-- build:js scripts/vendor.js -->
+        <!-- injector:bowerjs -->
+        <script src="lib/jquery/dist/jquery.js"></script>
+        <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="lib/angular/angular.js"></script>
+        <script src="lib/angular-resource/angular-resource.js"></script>
+        <script src="lib/angular-mocks/angular-mocks.js"></script>
+        <script src="lib/angular-cookies/angular-cookies.js"></script>
+        <script src="lib/angular-animate/angular-animate.js"></script>
+        <script src="lib/angular-touch/angular-touch.js"></script>
+        <script src="lib/angular-sanitize/angular-sanitize.js"></script>
+        <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="lib/angular-ui-utils/ui-utils.js"></script>
+        <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="lib/angular-local-storage/dist/angular-local-storage.js"></script>
+        <script src="lib/bootbox/bootbox.js"></script>
+        <script src="lib/ngBootbox/dist/ngBootbox.js"></script>
+        <script src="lib/angular-strap/dist/angular-strap.js"></script>
+        <script src="lib/angular-strap/dist/angular-strap.tpl.js"></script>
+        <script src="lib/checklist-model/checklist-model.js"></script>
+        <script src="lib/angular-base64-upload/src/angular-base64-upload.js"></script>
+        <script src="lib/spin.js/spin.js"></script>
+        <script src="lib/angular-spinner/angular-spinner.js"></script>
+        <script src="lib/angular-long-press/dist/angular-long-press.js"></script>
+        <!-- endinjector -->
+
+
+    <!-- endbuild -->
+
+    <!-- build:js scripts/custom.js -->
+        <!-- injector:js -->
+        <script src="js/config.js"></script>
+        <script src="js/application.js"></script>
+        <script src="modules/core/core.js"></script>
+        <script src="modules/core/config/routes.js"></script>
+        <script src="modules/core/services/barcode-service.js"></script>
+        <script src="modules/core/services/bottle-service.js"></script>
+        <script src="modules/core/services/location-service.js"></script>
+        <script src="modules/core/services/runtimes-service.js"></script>
+        <script src="modules/core/services/survey-service.js"></script>
+        <script src="modules/core/services/update-service.js"></script>
+        <script src="modules/core/services/username-service.js"></script>
+        <script src="modules/core/services/util-service.js"></script>
+        <!-- <script src="modules/core/directives/tap-details.js"></script>-->
+        <script src="modules/core/controllers/meal-controller.js"></script>
+        <script src="modules/core/controllers/food-ingred-controller.js"></script>
+        
+        <script src="modules/core/controllers/home.js"></script>
+        <script src="modules/core/controllers/main.js"></script>
+        <script src="modules/core/controllers/home-controller.js"></script>
+        <!-- endinjector -->
+    <!-- endbuild -->
+
+
+  </body>
+</html>

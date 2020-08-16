@@ -1,0 +1,28 @@
+{
+  "name": "MealTracker",
+  "version": "0.0.1",
+  "description": "Cordova app built with AngularJs",
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2",
+    "angular-resource": "~1.2",
+    "angular-mocks": "~1.2",
+    "angular-cookies": "~1.2",
+    "angular-animate": "~1.2",
+    "angular-touch": "~1.2",
+    "angular-sanitize": "~1.2",
+    "angular-bootstrap": "~0.10.0",
+    "angular-ui-utils": "~0.1.1",
+    "angular-ui-router": "~0.2.10",
+    "angular-local-storage": "~0.2.2",
+    "ngBootbox": "~0.1.1",
+    "angular-strap": "~2.3.3",
+    "checklist-model": "~0.6.0",
+    "angular-base64-upload": "~0.1.13",
+    "angular-spinner": "~0.8.1",
+    "angular-long-press": "~0.3.2"
+  },
+  "resolutions": {
+    "angular": "~1.2"
+  }
+}

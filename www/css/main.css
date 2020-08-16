@@ -1,0 +1,439 @@
+.posRel{
+	position:relative;
+}
+
+.absBottom{
+	position:absolute;
+	bottom:20px;
+}
+
+.biggerHeading{
+	font-size:150%;
+	font-weight:700;
+}
+
+.smallerHeading{
+	font-size:110%;
+	font-weight:700;
+	color:gray;
+}
+
+.marginLeft10{
+	margin-left:10px;
+}
+
+.marginTop20 {
+	margin-top:20px;
+}
+
+.marginBottom20 {
+	margin-bottom:20px !important;
+}
+
+.bottleMaxSize{
+	width:110px;
+}
+
+.floatRight{
+	float:right;
+}
+
+.floatLeft{
+	float:left;
+}
+
+.italics {
+	font-style:italic;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+th,td {
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px 30px;
+}
+
+/* background images.. */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    table > tbody > tr > td {
+		border: 1px solid #ddd;
+		padding: 10px;
+    }
+	.well {width: 100%;}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    table > tbody > tr > td {
+		border: 1px solid #ddd;
+		padding: 10px;
+    }
+	.well {width: 100%;}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    table > tbody > tr > td {
+		border: 1px solid #ddd;
+		padding: 10px;
+    }
+	.well {width: 100%;}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    table > tbody > tr > td {
+		border: 1px solid #ddd;
+		padding: 10px;
+    }
+    .well {width: auto;}
+}
+
+@media (min-width: 481px) {
+		body{
+			/*background: url("../img/tablet_white.jpg") no-repeat fixed left top;
+			background-size: 100%;*/
+		}
+	}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	body{
+		/*background: url("../img/mobile_white.jpg") no-repeat fixed left top;
+		background-size: 100%;*/
+	}
+	/*.form-horizontal .control-label {
+		  text-align: left;
+		  float: left;
+		  width: 45%;
+	  }
+	  .form-group input {width: 55%;}
+	  .form-group input.form-control {width: 100%;}*/
+	  /*.form-group input[type="checkbox"] {width: 5%;}*/
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        margin-bottom: 15px;
+        display: block;
+        border: 1px solid #ddd;
+    }
+
+    table > tbody > tr > td {
+        display: block;
+        text-align: right;
+        font-size: 14px;
+        border-bottom: 1px dotted #ccc;
+		padding: 10px;
+		width: 100% !important;
+		height: 42px;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+		height: 58px;
+    }
+
+    table td:before {
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    table.table-det td:nth-of-type(1):before {
+        content: "Sample No";
+    }
+
+		table.table-sample td:nth-of-type(1):before {
+        content: "Sample No";
+    }
+
+	table.table-det td:nth-of-type(2):before {
+        content: "Det";
+    }
+
+	table.table-det td:nth-of-type(3):before {
+        content: "Status";
+    }
+
+		table.table-det td:nth-of-type(4):before {
+	        content: "Result";
+	    }
+
+    table.table-stripped td:nth-of-type(2):before {
+        content: "ID";
+    }
+
+    table.table-stripped td:nth-of-type(3):before {
+        content: "Status";
+    }
+
+    table.table-stripped td:nth-of-type(4):before {
+        content: "Skipped";
+    }
+
+	table.table-stripped td:nth-of-type(5):before {
+        content: "";
+    }
+ .progress {
+  height: 10px;
+  line-height: 2px;
+ }
+ table.table-log, tr, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 0px;
+ }
+ table.table-log tr:nth-child(odd) {
+  margin-bottom: 0px;
+  background-color: #f2f2f2;
+ }
+ table.table-log tr:nth-child(even) {
+  margin-bottom: 0px;
+  background-color: #ffffff;
+ }
+ table.table-log td {
+  display: inline-block;
+  border-collapse: collapse;
+  padding: 0px;
+  /*width: 62px;
+  height: 25px;*/
+  height:auto;
+  border:none;
+  border-right: 1px solid #ccc;
+ }
+ 
+ table.table-log th {
+  /*width: 62px;*/
+  font-size: 15px;
+  height: 35px;
+  /*border: 0.5px solid black;*/
+  border-collapse: collapse;
+ }
+}
+
+
+/*
+A red border is shown by default around all
+form fields even before validation takes
+place on form. This removes it.
+*/
+html {
+	font-family: "Roboto", "Helvetica Neue", "Segoe UI", sans-serif;
+  /*overflow: hidden;*/
+}
+
+body {
+	background-color:white;
+	color: #424242;
+	padding-bottom: 90px;
+	font-family: "Roboto", "Helvetica Neue", "Segoe UI", sans-serif;
+	font-size: 16px;
+	/*background-color: #3D3F44;
+
+	background-image: url("../img/lon_background.jpg");
+	background-size: cover;
+
+	color:white;*/
+}
+
+h4 {
+	color: #222;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alert-info {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    color: #222;
+}
+
+
+.alert {
+	margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+
+/*Buttons CSS*/
+.btn-default, .footer span button:first-child {
+    background-color: #fdd835;
+	border-color: transparent;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    color: #424242;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+	margin-right: 15px;
+	opacity: 1;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+	background-color: #fdd835;
+	border-color: transparent;
+	color: #424242;
+    opacity: 0.8;
+}
+
+.btn-default.btn-sm {
+	background-color: #ff0000;
+	color: #000;
+}
+
+.btn-default.btn-dn {margin-top: 20px;}
+
+.btn-primary {
+	background-color: #0000ff;
+	margin-top: 10px;
+	opacity: 1;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+	background-color: #0000ff;
+	opacity: 0.8;
+}
+
+.redBtn {
+    background-color: #ff0000 !important;
+    color: #fff !important;
+}
+
+.greenBtn {
+    background-color: green !important;
+    color: #fff !important;
+}
+
+/*.footer button:first-child {
+	background-color: #000;
+	color: #fff;
+}*
+
+.footer button:nth-child(5), .footer span button:nth-child(2) {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.footer button:nth-child(3), .footer button:nth-child(4) {
+    background-color: green;
+    color: #fff;
+}*/
+
+
+/*Panel CSS*/
+.panel-default {
+	border-color: transparent #ddd #ddd;
+}
+
+.panel {
+	margin-bottom: 30px;
+	border-radius: 0px;
+	padding: 15px;
+}
+
+.panel-body .row div:first-child {color: #666;}
+
+.panel-body .row div:nth-child(2), .well .biggerHeading.ng-binding {color: #26a69a;}
+
+
+/*Form CSS*/
+.form-horizontal .control-label {
+	padding-top: 0px;
+	color: #666;
+}
+
+.form-group input {
+	color: #8c8c8c;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.ng-pristine:focus {box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);}
+
+label {font-weight: normal;}
+
+label.checkbox {
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+}
+
+input[type="checkbox"] {
+	z-index: 20;
+	position: relative;
+	width: 21px;
+	opacity:0;
+}
+
+input[type="checkbox"]:checked + label::after {
+    color: #000;
+    content: "✓";
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+label.checkbox::after {
+    border: 1px solid #b6b6b6;
+    border-radius: 3px;
+    content: "";
+    display: inline-block;
+    height: 22px;
+    position: absolute;
+    right: -22px;
+    width: 22px;
+	z-index: 10;
+}
+
+
+/*Row CSS*/
+.well {
+	background-color: transparent;
+	border-top: medium none;
+	border-radius: 0px;
+}
+.well .ng-binding {color: #737373;}
+
+.smallerHeading.ng-binding {color: #999;}
+
+
+/*Table CSS*/
+table {
+    border-collapse: initial;
+	border-spacing: 0px;
+}
+
+table > thead > tr > th:last-child {
+	background: none;
+	border: medium none;
+}
+
+table > thead > tr > th {
+    border-bottom: medium none;
+    background-color: #808080;
+	border: 1px solid #ddd;
+	padding: 15px;
+	vertical-align: bottom;
+    color: #fff;
+}
+
+table > tbody > tr > td:last-child {
+	border: medium none;
+}

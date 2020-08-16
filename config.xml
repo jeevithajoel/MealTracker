@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.io.tracker" version="1.1.18" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Meal tracker</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <splash height="1334" src="res/icon/ios/iphone8potrait.png" width="750" />
+    <splash height="1242" src="res/icon/ios/iphonepluslandscape.png" width="2208" />
+    <splash height="2208" src="res/icon/ios/iphonepluspotrait.png" width="1242" />
+    <splash height="1125" src="res/icon/ios/iphoneXLandscape.png" width="2436" />
+    <splash height="2436" src="res/icon/ios/iphoneXLandscape.png" width="1125" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <icon height="76" src="res/icon/ios/iconiPadApp_76pt.png" width="76" />
+        <icon height="152" src="res/icon/ios/iconiPadApp_76pt@2x.png" width="152" />
+        <icon height="20" src="res/icon/ios/iconiPadNotifications_20pt.png" width="20" />
+        <icon height="40" src="res/icon/ios/iconiPadNotifications_20pt@2x.png" width="40" />
+        <icon height="167" src="res/icon/ios/iconiPadProApp_83.5pt@2x.png" width="167" />
+        <icon height="29" src="res/icon/ios/iconiPadSpootlight5_29pt.png" width="29" />
+        <icon height="58" src="res/icon/ios/iconiPadSpootlight5_29pt@2x.png" width="58" />
+        <icon height="80" src="res/icon/ios/iconiPadSpootlight7_40pt@2x.png" width="80" />
+        <icon height="120" src="res/icon/ios/iconiPhoneApp_60pt@2x.png" width="120" />
+        <icon height="180" src="res/icon/ios/iconiPhoneApp_60pt@3x.png" width="180" />
+        <icon height="60" src="res/icon/ios/iconiPhoneNotification_20pt@3x.png" width="60" />
+        <icon height="87" src="res/icon/ios/iconiPhoneSpootlight5_29pt@3x.png" width="87" />
+        <icon height="1024" src="res/icon/ios/iconstore_1024pt.png" width="1024" />
+    </platform>
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-console" spec="^1.1.0" />
+    <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
+    <plugin name="cordova-plugin-screen-orientation" spec="^3.0.1" />
+    <plugin name="cordova-plugin-camera" spec="^4.0.3" />
+    <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
+    <plugin name="cordova.plugins.diagnostic" spec="^4.0.7" />
+    <plugin name="phonegap-plugin-barcodescanner" spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" />
+    <plugin name="cordova-airwatch" spec="/Users/sb/usertop/vcs/cordova-airwatch/cordova-airwatch-plugin" />
+    <plugin name="cordova-plugin-background-fetch" spec="https://github.com/transistorsoft/cordova-plugin-background-fetch" />
+    <plugin name="cordova-plugin-splashscreen" spec="https://github.com/apache/cordova-plugin-splashscreen.git" />
+    <plugin name="cordova-sqlite-storage" spec="^5.0.1" />
+    <engine name="ios" spec="^4.5.5" />
+</widget>

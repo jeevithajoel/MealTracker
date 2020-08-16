@@ -1,0 +1,23 @@
+
+<div ng-controller="FoodIngredientController">
+
+  <div class="page-header">
+    <img alt="MT" src="img/logo1.png">
+    <button style="float: right;" type="button" class="btn btn-default greenBtn" ng-click="setView('addFoodIngredient')">Add</button>
+  </div>
+
+<div>
+ <ul class="list-group">
+  <li ng-repeat="foodIngredientItem in getFoodIngredient()" class="list-group-item list-group-item-success" on-long-press="viewIndFoodIngredient(foodIngredientItem.name)">{{foodIngredientItem.name}}({{foodIngredientItem.quantity}}{{foodIngredientItem.unit}}) : {{foodIngredientItem.weight}}gm{{foodIngredientItem.calories}}kcal  --                      {{foodIngredientItem.carbs}},{{foodIngredientItem.protein}},{{foodIngredientItem.fat}},{{foodIngredientItem.fibre}}</li>
+  
+ </ul>
+</div>
+
+
+
+  <div class="footer navbar-fixed-bottom">
+    <button type="button" class="btn btn-default" ng-click="setView('home')">Back</button>
+ </div>
+  
+  
+</div>

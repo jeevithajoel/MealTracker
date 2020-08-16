@@ -1,0 +1,46 @@
+
+<div ng-controller="MealController" ng-init="refresh()">
+
+ <div class="page-header">
+  <img alt="MT" src="img/logo1.png">
+ </div>
+ 
+ <div class="alert alert-info marginBottom20" role="alert">
+  <form novalidate class="form-horizontal" name="searchAndAddForm">
+   <div class="form-group">
+    <select name="foodItem" ng-model="foodItem" ng-options="obj.id as obj.name for obj in foodIngredOptions"
+     style="width:250px;" ng-required="true" ng-change="setSelectedItem(foodItem)">
+     <option value="">-- Select food --</option>
+    </div>
+   
+   <div class="form-group">
+    <select name="foodItem" ng-model="foodItem" ng-options="obj.id as obj.name for obj in foodIngredOptions"
+     style="width:250px;" ng-required="true" ng-change="setSelectedItem(foodItem)">
+     <option value="">-- Select food --</option>
+   </div>
+   
+    <div class="form-group" ng-show="selected">
+        <label style="width:120px;">Quantity</label><label style="width:120px;">{{quantity}}{{unit}}</label><br><br>
+        <label style="width:120px;">Weight </label><label style="width:120px;">{{weight}}gm</label><br><br>
+        <label style="width:120px;">Calories</label><label style="width:120px;">{{calories}}</label><br><br>
+        <label style="width:120px;">Carbs    </label><label style="width:120px;">{{carbs}}</label><br><br>
+        <label style="width:120px;">Protein</label><label style="width:120px;">{{protein}}</label><br><br>
+        <label style="width:120px;">Fat      </label><label style="width:120px;">{{fat}}</label><br><br>
+        <label style="width:120px;">Fibre    </label><label style="width:120px;">{{fibre}}</label>
+    </div>
+    
+    <div class="form-group">
+     <button type="button" class="btn btn-default greenBtn" ng-click="addMeal()">Add meal</button>
+    </div>
+    
+   </form>
+ </div>
+
+
+  <div class="footer navbar-fixed-bottom">
+   
+    <button type="button" class="btn btn-default" ng-click="goBack()">Back</button>
+ </div>
+  
+  
+</div>

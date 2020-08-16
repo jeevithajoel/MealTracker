@@ -1,0 +1,21 @@
+{
+  "name": "cordova-airwatch",
+  "version": "2.0.0",
+  "description": "Integrates with the basic Airwatch native configuration",
+  "cordova": {
+    "id": "cordova-airwatch",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "airwatch",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "UNLICENCESED"
+}
